@@ -1,0 +1,17 @@
+{
+  "name": "chord-player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tonaljs/chord": "^3.3.0",
+    "@tonaljs/chord-dictionary": "^3.3.0",
+    "@tonaljs/tonal": "^3.2.2",
+    "howler": "^2.1.3"
+  }
+}

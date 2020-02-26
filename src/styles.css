@@ -1,0 +1,37 @@
+body {
+    font-family: Lato, sans-serif;
+    color: #fff;
+    background: #242424;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+.controls select {
+    margin: 0 10px;
+}
+.chord-notes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+}
+.chord-notes p {
+    margin: 10px 0;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.buttons button {
+    flex-grow: 1;
+    min-width:  200px;
+    height: 50px;
+    font-size: 1em;
+    background: teal;
+    border: none;
+    color: #fff;
+    margin: 10px;
+}
